@@ -9,14 +9,14 @@
 <h3>Запросы к эндпоинтам:</h3>
 <h4>GET/admin/redirects</h4>
 Query: page, pageSize (default: 1, 100)
----
+
 <h4>GET/admin/redirects/{id}</h4>
 
----
+
 <h4>POST/admin/redirects</h4>
 Request: JSON{active_link, history_link}
----
+
 <h4>PATCH/admin/redirects/{id}</h4>
 Request: JSON {active_link}
----
+
 <h4>DELETE/admin/redirects/{id}</h4>
